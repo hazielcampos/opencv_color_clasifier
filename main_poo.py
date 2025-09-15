@@ -4,9 +4,6 @@ from clasifier import Clasifier
 
 
 webcam = cv2.VideoCapture(0)
-webcam.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)  # 0.25 en PiCam puede desactivar auto exposure
-webcam.set(cv2.CAP_PROP_EXPOSURE, 100)        # Ajustar a valor fijo
-webcam.set(cv2.CAP_PROP_GAIN, 0)
 clas = Clasifier(((0, 53), (320, 240)))
 
 clas.start()
