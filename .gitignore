@@ -1,1 +1,3 @@
 venv
+opencv_detection_test.egg-info
+__pycache__
